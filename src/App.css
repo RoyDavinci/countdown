@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.top {
+	background-image: url(./images//bg-stars.svg),
+		linear-gradient(to right, #1f1d28, #1f1d28);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	color: white;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bottom {
+	background-image: url(./images//pattern-hills.svg),
+		linear-gradient(to right, #30243a, #30243a);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 30vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.time {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.images img {
+	padding: 10px;
+	width: 50px;
+	margin: 0px 10px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.time h1 {
+	background-image: linear-gradient(to bottom, #2b2d41 50%, #34354e 50%);
+	padding: 10px;
+	width: 80px;
+	margin: 10px 0px;
+	color: hsl(345, 95%, 68%);
 }
